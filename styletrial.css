@@ -1,0 +1,31 @@
+body {
+	background-color: grey;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRp7aTY2yUIyee5bgtVta1k5H5P0qsDKKpgT6-MRqdjlApIw-yg&usqp=CAU");
+	background-size: 100%;
+}
+
+h2{
+	font-family: Georgia;
+	text-align: center;
+}
+
+p {
+	text-align: center;	
+	line-height: 1.5;
+}
+
+div {
+    text-align: justify;
+}
+
+div img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
